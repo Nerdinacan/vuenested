@@ -1,0 +1,19 @@
+{
+    "title": "Top level title",
+    "children": [
+        {
+            "title": "Sub category title",
+            "children": [
+                { "title": "Third level #1" },
+                { "title": "Third level #2" }
+            ]
+        },
+        {
+            "title": "Another subcategory title",
+            "children": [
+                { "title": "Third level #3" },
+                { "title": "Third level #4" }
+            ]
+        }
+    ]
+}
