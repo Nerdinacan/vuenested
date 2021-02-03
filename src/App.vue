@@ -1,7 +1,5 @@
 <template>
     <div id="app">
-        <!-- learn the basic building blocks of HTML. 
-        Using divs for everything is a common thing I see, but it's visually confusing and non-semantic -->
         <header>
             <h2>I am always present on the page</h2>
         </header>
@@ -42,9 +40,6 @@ export default {
             return this.breadcrumbs.reduce((node, i) => {
                 return node.children[i];
             }, welcomeData);
-        },
-        kids() {
-            return this.currentNode.children;
         },
         componentDef() {
             switch (this.depth) {
